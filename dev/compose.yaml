@@ -1,0 +1,6 @@
+services:
+  whoami:
+    image: traefik/whoami
+    container_name: dev-whoami
+    ports:
+      - "8088:80"
