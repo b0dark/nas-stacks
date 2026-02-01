@@ -1,5 +1,0 @@
-Lookup Homebridge DS918 Docker 98CB._hap._tcp.local
-DATE: ---Sun 01 Feb 2026---
-15:01:02.321  ...STARTING...
-15:01:02.717  Homebridge\032DS918\032Docker\03298CB._hap._tcp.local. can be reached at Homebridge-DS918-Docker-98CB.local.:51715 (interface 13)
- c#=2 ff=0 id=0E:FA:B5:32:B3:BD md=homebridge pv=1.1 s#=1 sf=0 ci=2 sh=sQAOLA==
