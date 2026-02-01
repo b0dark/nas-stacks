@@ -13,3 +13,6 @@
 # ---- OS/editor noise ----
 .DS_Store
 .vscode/settings.json
+
+# Homebridge secrets
+homebridge/config.json

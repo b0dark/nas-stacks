@@ -1,0 +1,49 @@
+{
+    "bridge": {
+        "name": "Homebridge DS918 Docker",
+        "username": "0E:FA:B5:32:B3:BD",
+        "port": 51715,
+        "pin": "488-45-523",
+        "advertiser": "ciao",
+        "bind": "192.168.1.253"
+    },
+    "bind": [
+        "192.168.1.253"
+    ],
+    "platforms": [
+        {
+            "name": "Config",
+            "platform": "config",
+            "port": 8581,
+            "auth": "form",
+            "theme": "orange",
+            "tempUnits": "f",
+            "lang": "auto",
+            "host": "192.168.1.253"
+        },
+        {
+            "platform": "Nest",
+            "name": "Nest",
+            "refreshToken": "REDACTED"
+        },
+        {
+            "name": "Homebridge Dummy",
+            "accessories": [
+                {
+                    "name": "Door Dummy",
+                    "type": "Door",
+                    "sensor": {
+                        "type": "ContactSensor"
+                    },
+                    "resetOnRestart": false,
+                    "enableWebook": false,
+                    "disableLogging": false,
+                    "id": "20adfdc9-4bb8-4694-8071-f453594d1ebc"
+                }
+            ],
+            "platform": "HomebridgeDummy"
+        }
+    ],
+    "disabledPlugins": [],
+    "accessories": []
+}
