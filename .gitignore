@@ -1,0 +1,15 @@
+# ---- secrets (never commit) ----
+.env
+*.env
+!.env.example
+
+# ---- persistent runtime data (never commit) ----
+**/data/
+**/db/
+**/database/
+**/config/
+**/logs/
+
+# ---- OS/editor noise ----
+.DS_Store
+.vscode/settings.json
