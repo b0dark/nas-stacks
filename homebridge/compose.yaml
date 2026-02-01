@@ -6,6 +6,6 @@ services:
     restart: unless-stopped
     environment:
       TZ: America/Chicago
-      ENABLE_AVAHI: "1"
+      ENABLE_AVAHI: "0"
     volumes:
       - /volume1/docker/homebridge:/homebridge
