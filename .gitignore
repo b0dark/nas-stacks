@@ -16,3 +16,7 @@
 
 # Homebridge secrets
 homebridge/config.json
+
+# backup files
+*.bak
+*.bak.*

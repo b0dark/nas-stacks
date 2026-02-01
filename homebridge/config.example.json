@@ -24,7 +24,10 @@
         {
             "platform": "Nest",
             "name": "Nest",
-            "refreshToken": "REDACTED"
+              "googleAuth": {
+                "issueToken": "REDACTED_FOR_PRIVACY",
+                "cookies": "REDACTED_FOR_PRIVACY"
+              }
         },
         {
             "name": "Homebridge Dummy",
