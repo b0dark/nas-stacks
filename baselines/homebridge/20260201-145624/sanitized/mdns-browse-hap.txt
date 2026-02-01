@@ -1,0 +1,15 @@
+Browsing for _hap._tcp.local
+DATE: ---Sun 01 Feb 2026---
+15:05:26.785  ...STARTING...
+Timestamp     A/R    Flags  if Domain               Service Type         Instance Name
+15:05:26.786  Add        3  13 local.               _hap._tcp.           Homebridge DS918 Docker 98CB
+15:05:26.786  Add        3  13 local.               _hap._tcp.           HomePodSensor 508618
+15:05:26.786  Add        3  13 local.               _hap._tcp.           HomePodSensor 959562
+15:05:26.786  Add        3  13 local.               _hap._tcp.           HomePodSensor 960651
+15:05:26.786  Add        3  13 local.               _hap._tcp.           HomePodSensor 917451
+15:05:26.786  Add        3  13 local.               _hap._tcp.           HomePodSensor 481884
+15:05:26.786  Add        3  13 local.               _hap._tcp.           LG webOS TV D744
+15:05:26.786  Add        3  13 local.               _hap._tcp.           Philips Hue HomeKit
+15:05:26.786  Add        3  13 local.               _hap._tcp.           MSG200-7e99
+15:05:26.786  Add        3  13 local.               _hap._tcp.           Basestation A281967KA2B3F
+15:05:26.786  Add        2  13 local.               _hap._tcp.           Rachio-28EC78

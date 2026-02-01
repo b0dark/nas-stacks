@@ -1,0 +1,3 @@
+CONTAINER ID                                                       IMAGE                          COMMAND     CREATED       STATUS          PORTS                                     NAMES
+8597efd1891e8fe56a55c3a97e63e80cc9c0e1550ac66cab9eb94a0582bb9756   homebridge/homebridge:latest   "/init"     2 hours ago   Up 19 minutes                                             homebridge
+fffc6107eeee6c067876e87416edf861288e3f7897075bb8a28f06a40b2b01c3   traefik/whoami                 "/whoami"   3 hours ago   Up 3 hours      0.0.0.0:8088->80/tcp, [::]:8088->80/tcp   dev-whoami
