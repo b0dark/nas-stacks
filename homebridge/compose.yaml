@@ -1,0 +1,11 @@
+services:
+  homebridge:
+    image: homebridge/homebridge:latest
+    container_name: homebridge
+    network_mode: host
+    restart: unless-stopped
+    environment:
+      TZ: America/Chicago
+      ENABLE_AVAHI: "1"
+    volumes:
+      - /volume1/docker/homebridge:/homebridge
