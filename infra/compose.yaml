@@ -1,0 +1,14 @@
+name: infra
+
+services:
+  docker-socket-bridge:
+    image: alpine/socat
+    container_name: infra-docker-socket-bridge
+    restart: unless-stopped
+    command: >
+      TCP-LISTEN:23750,fork,reuseaddr
+      UNIX-CONNECT:/var/run/docker.sock
+    ports:
+      - "127.0.0.1:23750:23750"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
