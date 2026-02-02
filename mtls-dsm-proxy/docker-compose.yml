@@ -1,0 +1,10 @@
+services:
+  mtls-dsm-proxy:
+    image: nginx:stable
+    container_name: mtls-dsm-proxy
+    restart: unless-stopped
+    ports:
+      - "8443:8443"
+    volumes:
+      - /volume1/docker/mtls-dsm/conf/nginx.conf:/etc/nginx/nginx.conf:ro
+      - /volume1/docker/mtls-dsm/certs:/etc/nginx/certs:ro
