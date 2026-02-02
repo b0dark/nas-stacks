@@ -22,3 +22,6 @@ homebridge/config.json
 *.bak.*
 # local baselines (never commit)
 baselines/
+
+# local baselines (never commit)
+baselines/
